@@ -3,9 +3,21 @@
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title></title>
+  <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-
+  <div class="container">
+    <div id="date-input">
+      <form id="date-form">
+        <div class="form-group">
+          <label for="date">Put date here:</label>
+          <input class="form-control" id="date" type="date">
+          <button type="submit" class="btn btn-black">Get the day of the week</button>
+        </div>
+      </form>
+    </div>
+    <div id="day-output">
+    </div>
+  </div>
 </body>
 </html>

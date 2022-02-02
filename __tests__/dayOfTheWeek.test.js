@@ -9,6 +9,6 @@ describe('DayOfTheWeek', () => {
 
   test('.getDayOfWeek() should return string representing day of the week', () => {
     const dotw = new DayOfTheWeek('2022-02-02');
-    expect(dotw.getDayofTheWeek()).toEqual('Wednesday');
+    expect(dotw.getDayOfTheWeek()).toEqual('Wednesday');
   });
 });
